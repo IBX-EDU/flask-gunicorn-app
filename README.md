@@ -10,7 +10,7 @@ Flask + Gunicorn Application for the Fly.io cloud deployment
 # Deployment:
 0. [Fly.io](https://fly.io) - create account
 1. mkdir ibx-flask-gunicorn-app
-2. cd ibx-flask-app
+2. cd ibx-flask-gunicorn-app
 3. python -m venv venv
 4. .\venv\scripts\activate
 5. pip install flask, gunicorn

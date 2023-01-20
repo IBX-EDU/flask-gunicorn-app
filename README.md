@@ -1,4 +1,4 @@
-## ibx-flask-app
+## ibx-flask-gunicorn-app
 
 Flask + Gunicorn Application for the Fly.io cloud deployment
 
@@ -9,7 +9,7 @@ Flask + Gunicorn Application for the Fly.io cloud deployment
 
 # Deployment:
 0. [Fly.io](https://fly.io) - create account
-1. mkdir ibx-flask-app
+1. mkdir ibx-flask-gunicorn-app
 2. cd ibx-flask-app
 3. python -m venv venv
 4. .\venv\scripts\activate
@@ -21,4 +21,4 @@ Flask + Gunicorn Application for the Fly.io cloud deployment
 10. flyctl launch
 11. configure Procfile
 12. flyctl deploy
-13. browse https://ibx-flask-app.fly.dev/
+13. browse https://ibx-flask-gunicorn-app.fly.dev/

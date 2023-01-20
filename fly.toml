@@ -1,6 +1,6 @@
-# fly.toml file generated for ibx-flask-app on 2022-08-27T04:14:08+06:00
+# fly.toml file generated for ibx-flask-gunicorn-app on 2022-08-27T04:14:08+06:00
 
-app = "ibx-flask-app"
+app = "ibx-flask-gunicorn-app"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
